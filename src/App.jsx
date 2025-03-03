@@ -1,5 +1,5 @@
-import "./App.css";
-import Footer from "./components/Footer";
+import styles from "./App.module.css";
+import Footer from "./components/Footer/Footer";
 import Product from "./components/Product/Product";
 import products from "./data/products";
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <h1>Products</h1>
 
-      <div>
+      <div className={styles.products}>
         {products.map((item) => (
           <Product {...item} />
         ))}

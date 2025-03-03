@@ -1,7 +1,7 @@
 import styles from "./Product.module.css";
 function Product({ name, price, category, inStock, id }) {
   return (
-    <div>
+    <div className={styles.product}>
       <div className={styles.head}>
         <h2>{name}</h2>
         <h3 className={styles.price}>Price ${price} </h3>

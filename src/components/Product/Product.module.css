@@ -1,3 +1,10 @@
+.product {
+  width: 400px;
+  max-width: 600px;
+  border: 1px rgb(37, 199, 185) solid;
+  padding: 1rem;
+  border-radius: 8%;
+}
 h2 {
   color: rgb(37, 199, 185);
   margin-bottom: 0.5rem;
